@@ -1,18 +1,7 @@
-import data from "../data.json";
+import Home from "./component/Home";
 
 const App = () => {
-  return (
-    <div>
-      {data.map((item, index) => {
-        return (
-          <>
-            <h2 key={index + 1}>{item.name}</h2>
-            <img src={item.img} height={200} width={200} alt="item image" />
-          </>
-        );
-      })}
-    </div>
-  );
+  return <Home />;
 };
 
 export default App;
