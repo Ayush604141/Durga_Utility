@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Fusible Plug",
+    "img": "/products/product_1.svg"
+  },
+  {
+    "name": "Fire Door",
+    "img": "/products/product_2.svg"
+  },
+  {
+    "name": "Fire Bar",
+    "img": "/products/product_3.svg"
+  },
+  {
+    "name": "Burner Electrode",
+    "img": "/products/product_4.svg"
+  },
+  {
+    "name": "Blow Down Valve",
+    "img": "/products/product_5.svg"
+  },
+  {
+    "name": "Cooling Fan",
+    "img": "/products/product_6.svg"
+  },
+  {
+    "name": "Boiler Mobrey",
+    "img": "/products/product_7.svg"
+  },
+  {
+    "name": "Safety Valve",
+    "img": "/products/product_8.svg"
+  },
+  {
+    "name": "Pressure Gauge",
+    "img": "/products/product_9.svg"
+  },
+  {
+    "name": "Burner Nozzle",
+    "img": "/products/product_10.svg"
+  },
+  {
+    "name": "RO Antiscalant",
+    "img": "/products/product_11.svg"
+  },
+  {
+    "name": "Sequence Controller",
+    "img": "/products/product_12.svg"
+  },
+  {
+    "name": "Refactory Cement",
+    "img": "/products/product_13.svg"
+  },
+  {
+    "name": "Boiler Chemical",
+    "img": "/products/product_14.svg"
+  },
+  {
+    "name": "CS Globe Valve",
+    "img": "/products/product_15.svg"
+  },
+  {
+    "name": "RO Membrane",
+    "img": "/products/product_16.svg"
+  },
+  {
+    "name": "Solar Cell",
+    "img": "/products/product_17.svg"
+  },
+  {
+    "name": "Boiler Coil",
+    "img": "/products/product_18.svg"
+  },
+  {
+    "name": "Diffuser Plate",
+    "img": "/products/product_19.svg"
+  },
+  {
+    "name": "Pressure Switch",
+    "img": "/products/product_20.svg"
+  }
+]
