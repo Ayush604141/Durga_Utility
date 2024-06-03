@@ -1,82 +1,102 @@
 [
   {
     "name": "Fusible Plug",
-    "img": "/products/product_1.svg"
+    "img": "/products/product_1.svg",
+    "description": "A safety device designed to melt at a specific temperature to relieve pressure and prevent explosions."
   },
   {
     "name": "Fire Door",
-    "img": "/products/product_2.svg"
+    "img": "/products/product_2.svg",
+    "description": "A door with a fire-resistance rating used to prevent the spread of fire and smoke."
   },
   {
     "name": "Fire Bar",
-    "img": "/products/product_3.svg"
+    "img": "/products/product_3.svg",
+    "description": "A component of a furnace or boiler designed to withstand high temperatures."
   },
   {
     "name": "Burner Electrode",
-    "img": "/products/product_4.svg"
+    "img": "/products/product_4.svg",
+    "description": "An electrode used in burners to ignite the fuel and create a flame."
   },
   {
     "name": "Blow Down Valve",
-    "img": "/products/product_5.svg"
+    "img": "/products/product_5.svg",
+    "description": "A valve used to remove sediment and maintain boiler efficiency."
   },
   {
     "name": "Cooling Fan",
-    "img": "/products/product_6.svg"
+    "img": "/products/product_6.svg",
+    "description": "A fan used to cool machinery or electronics by circulating air."
   },
   {
     "name": "Boiler Mobrey",
-    "img": "/products/product_7.svg"
+    "img": "/products/product_7.svg",
+    "description": "A device used to control the water level in a boiler."
   },
   {
     "name": "Safety Valve",
-    "img": "/products/product_8.svg"
+    "img": "/products/product_8.svg",
+    "description": "A valve that automatically releases pressure to prevent explosions."
   },
   {
     "name": "Pressure Gauge",
-    "img": "/products/product_9.svg"
+    "img": "/products/product_9.svg",
+    "description": "A gauge used to measure the pressure of gases or liquids."
   },
   {
     "name": "Burner Nozzle",
-    "img": "/products/product_10.svg"
+    "img": "/products/product_10.svg",
+    "description": "A nozzle used in burners to direct the flow of fuel."
   },
   {
     "name": "RO Antiscalant",
-    "img": "/products/product_11.svg"
+    "img": "/products/product_11.svg",
+    "description": "A chemical used to prevent scaling in reverse osmosis systems."
   },
   {
     "name": "Sequence Controller",
-    "img": "/products/product_12.svg"
+    "img": "/products/product_12.svg",
+    "description": "A controller used to manage the sequence of operations in a system."
   },
   {
     "name": "Refactory Cement",
-    "img": "/products/product_13.svg"
+    "img": "/products/product_13.svg",
+    "description": "A high-temperature cement used in refractory applications."
   },
   {
     "name": "Boiler Chemical",
-    "img": "/products/product_14.svg"
+    "img": "/products/product_14.svg",
+    "description": "Chemicals used to treat and maintain boiler water quality."
   },
   {
     "name": "CS Globe Valve",
-    "img": "/products/product_15.svg"
+    "img": "/products/product_15.svg",
+    "description": "A cast steel valve used for regulating flow in a pipeline."
   },
   {
     "name": "RO Membrane",
-    "img": "/products/product_16.svg"
+    "img": "/products/product_16.svg",
+    "description": "A semi-permeable membrane used in reverse osmosis systems to filter water."
   },
   {
     "name": "Solar Cell",
-    "img": "/products/product_17.svg"
+    "img": "/products/product_17.svg",
+    "description": "A photovoltaic cell used to convert sunlight into electrical energy."
   },
   {
     "name": "Boiler Coil",
-    "img": "/products/product_18.svg"
+    "img": "/products/product_18.svg",
+    "description": "A coil used in boilers to transfer heat efficiently."
   },
   {
     "name": "Diffuser Plate",
-    "img": "/products/product_19.svg"
+    "img": "/products/product_19.svg",
+    "description": "A plate used to distribute air or gas evenly in a system."
   },
   {
     "name": "Pressure Switch",
-    "img": "/products/product_20.svg"
+    "img": "/products/product_20.svg",
+    "description": "A switch used to monitor and control pressure levels in a system."
   }
 ]
