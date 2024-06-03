@@ -19,7 +19,7 @@ const ContactModal = ({ isOpen, onClose }) => {
   return (
     <Modal isOpen={isOpen} onClose={onClose}>
       <ModalOverlay />
-      <ModalContent bg={"#ffffff"} color={"#000"}>
+      <ModalContent bg={"#ffffff"} color={"#000"} bgColor={"powderblue"}>
         <ModalHeader>
           <Text fontSize="2xl">Contact</Text>
         </ModalHeader>
@@ -35,7 +35,7 @@ const ContactModal = ({ isOpen, onClose }) => {
               src="https://res.cloudinary.com/dcj2allfp/image/upload/v1717381791/s03io1l6f499nwv5p9hy.png"
               size="xl"
             />
-            <Heading fontSize="xl">Hemant D. Golani</Heading>
+            <Heading fontSize="3xl" color="darkblue">Hemant D. Golani</Heading>
           </Flex>
           <Flex
             direction="column"
@@ -46,7 +46,7 @@ const ContactModal = ({ isOpen, onClose }) => {
           >
             <Badge
               variant="solid"
-              bg={"rgba(255, 0, 0, 0.3)"}
+              bg={"rgba(0, 0, 255, 0.5)"}
               width={250}
               height={"auto"}
               textAlign={"center"}
@@ -56,7 +56,7 @@ const ContactModal = ({ isOpen, onClose }) => {
             </Badge>
             <Badge
               variant="solid"
-              bg={"rgba(255, 0, 0, 0.3)"}
+              bg={"rgba(0, 0, 255, 0.5)"}
               width={250}
               height={"auto"}
               textTransform={"lowercase"}
@@ -69,7 +69,7 @@ const ContactModal = ({ isOpen, onClose }) => {
         </ModalBody>
 
         <ModalFooter>
-          <Button colorScheme="red" mr={3} onClick={onClose}>
+          <Button colorScheme="blue" mr={3} onClick={onClose}>
             Close
           </Button>
         </ModalFooter>
