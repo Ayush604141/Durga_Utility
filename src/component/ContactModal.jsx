@@ -1,41 +1,55 @@
 import {
-  Avatar,
-  Badge,
-  Button,
   Flex,
   Heading,
+  Image,
   Modal,
   ModalBody,
   ModalCloseButton,
   ModalContent,
-  ModalFooter,
   ModalHeader,
   ModalOverlay,
+  Skeleton,
   Text,
 } from "@chakra-ui/react";
 import PropTypes from "prop-types";
+import { useState } from "react";
 
 const ContactModal = ({ isOpen, onClose }) => {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
+  const handleImageLoad = () => {
+    setImageLoaded(true);
+  };
+
   return (
     <Modal isOpen={isOpen} onClose={onClose}>
       <ModalOverlay />
-      <ModalContent bg={"#ffffff"} color={"#000"} bgColor={"powderblue"}>
+      <ModalContent bg={"white"} color={"teal.800"}>
         <ModalHeader>
           <Text fontSize="2xl">Contact</Text>
         </ModalHeader>
         <ModalCloseButton />
-        <ModalBody>
+        <ModalBody m="0 1vh 3vh 1vh">
           <Flex
             direction="column"
             justifyContent="center"
             alignItems="center"
             gap="4"
           >
-            <Avatar
-              src="https://res.cloudinary.com/dcj2allfp/image/upload/v1717381791/s03io1l6f499nwv5p9hy.png"
-              size="xl"
-            />
-            <Heading fontSize="3xl" color="darkblue">Hemant D. Golani</Heading>
+            <Skeleton isLoaded={imageLoaded} height="40vh" width="100%">
+              <Image
+                src="https://res.cloudinary.com/dcj2allfp/image/upload/v1717662479/ceyp5w4cyju1mhav0jex.jpg"
+                height="40vh"
+                width="100%"
+                objectFit="cover"
+                objectPosition="center"
+                borderRadius="1vh"
+                onLoad={handleImageLoad}
+              />
+            </Skeleton>
+            <Heading fontSize="3xl" color="teal.800">
+              Hemant D. Golani
+            </Heading>
           </Flex>
           <Flex
             direction="column"
@@ -44,35 +58,27 @@ const ContactModal = ({ isOpen, onClose }) => {
             mt="4"
             gap="2"
           >
-            <Badge
-              variant="solid"
-              bg={"rgba(0, 0, 255, 0.5)"}
+            <Text
               width={250}
               height={"auto"}
               textAlign={"center"}
               fontSize={"l"}
+              fontWeight={"bolder"}
             >
-              +91 9558137004
-            </Badge>
-            <Badge
-              variant="solid"
-              bg={"rgba(0, 0, 255, 0.5)"}
+              +91 97264 60576
+            </Text>
+            <Text
               width={250}
               height={"auto"}
               textTransform={"lowercase"}
               textAlign={"center"}
               fontSize={"l"}
+              fontWeight={"bolder"}
             >
               durgautility.service@gmail.com
-            </Badge>
+            </Text>
           </Flex>
         </ModalBody>
-
-        <ModalFooter>
-          <Button colorScheme="blue" mr={3} onClick={onClose}>
-            Close
-          </Button>
-        </ModalFooter>
       </ModalContent>
     </Modal>
   );
