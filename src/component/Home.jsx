@@ -21,7 +21,7 @@ const Home = () => {
       direction="column"
       minHeight="100vh"
       bg="gray.100"
-      backgroundImage="url('/public/BackgroundSVG.svg')"
+      backgroundImage="url('/BackgroundSVG.svg')"
       bgPosition="center"
       bgRepeat="no-repeat"
       bgSize="cover"

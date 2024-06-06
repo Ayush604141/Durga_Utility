@@ -1,9 +1,13 @@
-import { Box, Image, Heading, Flex } from "@chakra-ui/react";
+import { Box, Image, Heading, Flex, Skeleton } from "@chakra-ui/react";
 import PropTypes from "prop-types";
+import { useState } from "react";
 
 const ProductCard = ({ imageUrl, name }) => {
+  const [isLoading, setIsLoading] = useState(true);
+
   return (
     <Box width="100%" borderRadius="lg" borderWidth="2px" boxShadow="lg">
+      {isLoading && <Skeleton height={300} width={300} />}
       <Image
         src={imageUrl}
         alt="Product Image"
@@ -12,6 +16,8 @@ const ProductCard = ({ imageUrl, name }) => {
         objectFit="contain"
         objectPosition="center"
         overflow="hidden"
+        onLoad={() => setIsLoading(false)}
+        display={isLoading ? "none" : "block"}
       />
       <Flex
         fontFamily="monofett"
@@ -31,7 +37,6 @@ const ProductCard = ({ imageUrl, name }) => {
 ProductCard.propTypes = {
   imageUrl: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
 };
 
 export default ProductCard;
