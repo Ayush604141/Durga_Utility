@@ -11,10 +11,11 @@ import {
 import { FiPhoneCall } from "react-icons/fi";
 import { MdExplore } from "react-icons/md";
 import ContactModal from "./ContactModal";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
   const { isOpen, onClose, onOpen } = useDisclosure();
-
+  const navigate = useNavigate();
   return (
     <Flex
       direction="column"
@@ -75,6 +76,9 @@ const Home = () => {
             colorScheme="teal"
             size="lg"
             rightIcon={<MdExplore />}
+            onClick={() => {
+              navigate("/products/list", { replace: false });
+            }}
           >
             Explore
           </Button>
@@ -165,8 +169,8 @@ const Home = () => {
           </Box>
         </Flex>
       </Box>
-      <Text variant="body" textAlign="center" fontWeight="bolder">
-        Durga Utility Services 2020 ©
+      <Text variant="body" textAlign="center" fontWeight="bolder" mb="2vh">
+        Durga Utility Services 2018 ©
       </Text>
     </Flex>
   );
