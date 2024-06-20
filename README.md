@@ -23,7 +23,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/Durga_Utility.git
+    git clone https://github.com/Ayush604141/Durga_Utility.git
     ```
 
 2. Navigate to the project directory:
@@ -45,4 +45,4 @@ To run this project locally, follow these steps:
 
 For any questions or suggestions, please contact us at:
 - **Email**: durgautility.service@gmail.com
-- **Website**: [https://durga_utility.vercel.app]
+- **Website**: [https://durga-utility.vercel.app]
