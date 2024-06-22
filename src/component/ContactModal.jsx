@@ -38,7 +38,7 @@ const ContactModal = ({ isOpen, onClose }) => {
           >
             <Skeleton isLoaded={imageLoaded} height="40vh" width="100%">
               <Image
-                src="https://res.cloudinary.com/dcj2allfp/image/upload/v1717662479/ceyp5w4cyju1mhav0jex.jpg"
+                src="https://res.cloudinary.com/dcj2allfp/image/upload/v1717662479/durga-utility/ceyp5w4cyju1mhav0jex.jpg"
                 height="40vh"
                 width="100%"
                 objectFit="cover"

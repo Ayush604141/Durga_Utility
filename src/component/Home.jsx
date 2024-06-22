@@ -34,7 +34,7 @@ const Home = () => {
           p={{ base: 3, md: 5 }}
         >
           <Image
-            src="https://res.cloudinary.com/dcj2allfp/image/upload/v1717426928/jiikowd6bjkbeicghq9r.png"
+            src="https://res.cloudinary.com/dcj2allfp/image/upload/v1717426928/durga-utility/jiikowd6bjkbeicghq9r.png"
             height="16vh"
             transform="rotate(-90deg)"
           />
